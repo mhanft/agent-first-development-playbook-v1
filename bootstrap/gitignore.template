@@ -1,0 +1,22 @@
+# --- agent-first-playbook: transient handoff files (single-writer, deleted at session end) ---
+orchestration/handoffs/
+
+# --- secrets ---
+.env
+*.key
+*.pem
+secrets/
+
+# --- dependencies & build artifacts ---
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+.venv/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

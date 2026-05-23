@@ -1,0 +1,39 @@
+# CLAUDE.md — <PROJECT NAME>
+
+> Fill every `<…>` placeholder at bootstrap. This file is auto-loaded by every agent on this project.
+
+**Read first:** before doing anything, read the methodology agent-entry doc at `<local path to the agent-first-playbook clone>/README.md`, then your role section.
+
+## Non-negotiables (full list in the methodology; the three that must never be missed)
+
+1. Handoffs are always file + pointer — never paste full content or screenshots.
+2. The orchestrator never touches or commits source code; CC is the sole committer of code.
+3. Decisions are locked by orchestrator + operator together — CC executes, never silently re-decides.
+
+## Project
+
+- **Name:** <project name>
+- **One-line description:** <what it is>
+- **Type:** <engineering / business / both>
+- **Tech stack:** <languages, frameworks, datastores — engineering projects>
+- **Cloud-deployed:** <yes/no>. Cost tracking: <on + mechanism / off + recorded reason>
+
+## Layout
+
+- Repo model: <single-repo / multi-repo + hub>
+- Handoff folder: `orchestration/handoffs/`
+- Session logs: `orchestration/session-logs/<user>/`
+
+## Tracker
+
+- <tracker name>, project prefix `<PREFIX>`
+
+## Records — project ground truth (read these; never work from memory)
+
+- Decisions: `orchestration/decisions-log.md`
+- Failure modes: `docs/failure-modes.md`
+- Architecture: `docs/architecture/`
+
+## Recorded limitations / project-specific constraints
+
+- <none yet — add any tooling/access limitation discovered, so future agents don't re-discover it>
