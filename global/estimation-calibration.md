@@ -31,3 +31,4 @@ _No entries yet — populated at each ticket Close._
 
 | date | ticket | operator | work-type | estimate | work-time | wait-time | variance-reason |
 |---|---|---|---|---|---|---|---|
+| 2026-09-01 | MTC-2 | max | external-integration | n/a (pre-calibration ticket; connector build spanned prior sessions unrecorded) | ~1h (15m close-out + 45m OIDC pipeline activation) | ~1 day (deploy permission → operator grant + pipeline decision) | deploy blocked on permissions; operator chose to activate OIDC pipeline (scope addition) instead of manual deploy |
